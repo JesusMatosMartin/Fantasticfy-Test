@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedPage.css">
+    <script src="feedPage.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Feed Page</h1>
+        <div class="input_filter">
+            <input type="text" id="filter" class="filter" placeholder="Enter Title" onkeyup="searchProduct()">
+            <select id="gender" onchange="searchProduct()"></select>
+        </div>
+        <ul class="cards" id="cardList"></ul>
+    </div>
+</body>
+<footer>
+    <div class="copyright">
+        <p>Made by Jesus Matos</p>
+    </div>
+</footer>
+
+</html>

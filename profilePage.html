@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profilePage.css">
+    <script src="profilePage.js"></script>
+</head>
+
+<body>
+    <div class="main-content">
+        <!-- Page content -->
+        <div class="container-fluid mt--7">
+            <div class="row">
+                <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
+                    <div class="card card-profile shadow">
+                        <div class="card-body pt-0 pt-md-4">
+                            <div class="card-profile-image" id="img_profile">
+                                <img src="https://cdn-icons-png.flaticon.com/128/456/456212.png" class="rounded-circle">
+                            </div>
+                            <div class="text-center">
+                                <h3 id="name">
+                                    Name
+                                </h3>
+                                <div class="h5 font-weight-300" id="date_of_birth">
+                                    date_of_birth
+                                </div>
+                                <div class="h5 mt-4" id="employment">
+                                    Employment
+                                </div>
+                                <hr class="my-4">
+                                <p id="phoneNumber">Phone Number</p>
+                                <p id="social_insurance_number">Social Insurance Number</p>
+                                <p id="credit_card">Credit Card</p>
+                                <hr class="my-4">
+                                <h4>Subscription</h4>
+                                <p id="subscription">Subscription Plan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 order-xl-1">
+                    <div class="card bg-secondary shadow">
+                        <div class="card-header bg-white border-0">
+                            <div class="row align-items-center">
+                                <div class="col-8">
+                                    <h4 class="mb-0">My account</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <h6 class="heading-small text-muted mb-4">User information</h6>
+                                <div class="pl-lg-4">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group focused">
+                                                <label class="form-control-label" for="input-first-name">ID</label>
+                                                <div id="id"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group focused">
+                                                <label class="form-control-label" for="input-last-name">Password</label>
+                                                <div id="password"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group focused">
+                                                <label class="form-control-label" for="input-username">Username</label>
+                                                <div id="usernames"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label class="form-control-label" for="input-email">Email
+                                                    address</label>
+                                                <div id="email"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group focused">
+                                                <label class="form-control-label" for="input-first-name">First
+                                                    name</label>
+                                                <div id="first_name"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group focused">
+                                                <label class="form-control-label" for="input-last-name">Last
+                                                    name</label>
+                                                <div id="last_name"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="my-4">
+                                <!-- Address -->
+                                <h6 class="heading-small text-muted mb-4">Contact information</h6>
+                                <div class="pl-lg-4">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group focused">
+                                                <label class="form-control-label" for="input-address">Address</label>
+                                                <div id="address"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="form-group focused">
+                                                <label class="form-control-label" for="input-city">City</label>
+                                                <div id="city"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="form-group focused">
+                                                <label class="form-control-label" for="input-country">Country</label>
+                                                <div id="country"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="form-group">
+                                                <label class="form-control-label" for="input-country">Postal
+                                                    code</label>
+                                                <div id="zip_code"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="cards" id="cardList"></ul>
+    </div>
+    <footer class="footer">
+            <div class="copyright">
+                <p class="madeBy">Made by Jesus Matos</p>
+            </div>
+    </footer>
+</body>
